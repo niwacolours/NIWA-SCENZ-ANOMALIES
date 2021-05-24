@@ -2,7 +2,7 @@
   "layerInfos": [
     {
       "name": "NIWA_SCENZ_ANOMALIES_V02",
-      "id": "OceanParameters_PROD_All_ANOMALIES_Children_NZTM_2136",
+      "id": "NIWA_SCENZ_ANOMALIES_V02_5701",
       "layer": {
         "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer"
       },
