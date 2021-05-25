@@ -1,9 +1,9 @@
 {
-  "name": "SCENZAnomalySEExport",
-  "displayName": "SCENZ_Anomaly_SE_Export",
-  "description": "SCENZ_Anomaly_MO_Export using all Input Parameters: uses the Sampling tool on a Multidimensional CRF raster for monthly anomalies to export a table for an input area of pixels",
+  "name": "SCENZAnomaly7DExport",
+  "displayName": "SCENZ_Anomaly_7D_Export",
+  "description": "SCENZ_Anomaly_Export2 using all Input Parameters: uses the Sampling tool on a Multidimensional CRF raster for Annual Anomalies to export a table for an input area of pixels",
   "category": "",
-  "helpUrl": "https://gis.niwa.co.nz/raster/rest/directories/arcgisoutput/SCENZ/SCENZ_Anomaly_Export2_GPServer/SCENZ_SCENZ_Anomaly_Export2/SCENZAnomalySEExport.htm",
+  "helpUrl": "https://gis.niwa.co.nz/raster/rest/directories/arcgisoutput/SCENZ/SCENZ_Anomaly_Export2_GPServer/SCENZ_SCENZ_Anomaly_Export2/SCENZAnomaly7DExport.htm",
   "serverInfo": {
     "currentVersion": 10.81,
     "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/SCENZ_Anomaly_Export2/GPServer/",
@@ -12,7 +12,7 @@
     "supportsUpload": false
   },
   "useResultMapServer": false,
-  "taskUrl": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/SCENZ_Anomaly_Export2/GPServer/SCENZ_Anomaly_SE_Export",
+  "taskUrl": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/SCENZ_Anomaly_Export2/GPServer/SCENZ_Anomaly_7D_Export",
   "isSynchronous": false,
   "inputParams": [
     {

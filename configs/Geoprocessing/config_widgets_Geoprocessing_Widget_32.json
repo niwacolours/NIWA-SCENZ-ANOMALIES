@@ -1,9 +1,9 @@
 {
-  "name": "SCENZAnomalyMOExport",
-  "displayName": "SCENZ_Anomaly_MO_Export",
-  "description": "SCENZ_Anomaly_SE_Export using all Input Parameters: uses the Sampling tool on a Multidimensional CRF raster for seasonal climatologies to export a table for an input area of pixels",
+  "name": "SCENZAnomalyYRExport",
+  "displayName": "SCENZ_Anomaly_YR_Export",
+  "description": "SCENZ_Anomaly_7D_Export using all Input Parameters: uses the Sampling tool on a Multidimensional CRF raster for 7-Day Anomalies to export a table for an input area of pixels",
   "category": "",
-  "helpUrl": "https://gis.niwa.co.nz/raster/rest/directories/arcgisoutput/SCENZ/SCENZ_Anomaly_Export2_GPServer/SCENZ_SCENZ_Anomaly_Export2/SCENZAnomalyMOExport.htm",
+  "helpUrl": "https://gis.niwa.co.nz/raster/rest/directories/arcgisoutput/SCENZ/SCENZ_Anomaly_Export2_GPServer/SCENZ_SCENZ_Anomaly_Export2/SCENZAnomalyYRExport.htm",
   "serverInfo": {
     "currentVersion": 10.81,
     "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/SCENZ_Anomaly_Export2/GPServer/",
@@ -12,9 +12,20 @@
     "supportsUpload": false
   },
   "useResultMapServer": false,
-  "taskUrl": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/SCENZ_Anomaly_Export2/GPServer/SCENZ_Anomaly_MO_Export",
+  "taskUrl": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/SCENZ_Anomaly_Export2/GPServer/SCENZ_Anomaly_YR_Export",
   "isSynchronous": false,
   "inputParams": [
+    {
+      "name": "Output_Name",
+      "dataType": "GPString",
+      "description": "Output Name",
+      "defaultValue": "SCENZ_OceanParametersExportFile.csv",
+      "category": "",
+      "label": "Output Name",
+      "visible": false,
+      "required": false,
+      "tooltip": "Output Name"
+    },
     {
       "name": "PolygonInput",
       "dataType": "GPFeatureRecordSetLayer",
