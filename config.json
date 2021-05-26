@@ -157,7 +157,7 @@
         "id": "_9",
         "name": "ISProfile",
         "label": "Profile (Product vs Time)",
-        "version": "",
+        "version": "2.0",
         "closeable": true,
         "uri": "widgets/ISProfile/Widget",
         "config": "configs/ISProfile/config__9.json"
@@ -266,7 +266,7 @@
       "right": 0,
       "bottom": 0
     },
-    "itemId": "ab7b2127edd84e05abc866205476242a",
+    "itemId": "32b056b71be247a08c342a894b2055fb",
     "mapOptions": {},
     "id": "map",
     "portalUrl": "https://gis.niwa.co.nz/portal",

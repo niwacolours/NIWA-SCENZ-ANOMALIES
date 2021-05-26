@@ -8,9 +8,9 @@
   "allowTurnOffAll": false,
   "filters": [
     {
-      "layerId": "NIWA_SCENZ_ANOMALIES_V02_9993",
-      "url": "https://gis.niwa.co.nz/server/rest/services/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
-      "name": "Product",
+      "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
+      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
+      "name": "Product (toggle on/off if no image)",
       "filter": {
         "logicalOperator": "AND",
         "parts": [
@@ -29,7 +29,7 @@
               "value": "CHL"
             },
             "interactiveObj": {
-              "prompt": "Product is",
+              "prompt": "Variable is",
               "hint": "",
               "cascade": "previous"
             },
@@ -72,8 +72,8 @@
       }
     },
     {
-      "layerId": "NIWA_SCENZ_ANOMALIES_V02_9993",
-      "url": "https://gis.niwa.co.nz/server/rest/services/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
+      "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
+      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
       "name": "Timestep",
       "filter": {
         "logicalOperator": "AND",
@@ -136,8 +136,8 @@
       }
     },
     {
-      "layerId": "NIWA_SCENZ_ANOMALIES_V02_9993",
-      "url": "https://gis.niwa.co.nz/server/rest/services/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
+      "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
+      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
       "name": "Year",
       "filter": {
         "logicalOperator": "AND",
@@ -200,8 +200,8 @@
       }
     },
     {
-      "layerId": "NIWA_SCENZ_ANOMALIES_V02_9993",
-      "url": "https://gis.niwa.co.nz/server/rest/services/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
+      "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
+      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
       "name": "Month",
       "filter": {
         "logicalOperator": "AND",
