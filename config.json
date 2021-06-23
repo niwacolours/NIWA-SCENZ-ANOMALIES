@@ -157,7 +157,7 @@
         "id": "_9",
         "name": "ISProfile",
         "label": "Profile (Product vs Time)",
-        "version": "2.0",
+        "version": "",
         "closeable": true,
         "uri": "widgets/ISProfile/Widget",
         "config": "configs/ISProfile/config__9.json"
