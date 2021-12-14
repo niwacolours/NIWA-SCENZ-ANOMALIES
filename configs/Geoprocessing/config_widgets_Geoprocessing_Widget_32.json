@@ -16,17 +16,6 @@
   "isSynchronous": false,
   "inputParams": [
     {
-      "name": "Output_Name",
-      "dataType": "GPString",
-      "description": "Output Name",
-      "defaultValue": "SCENZ_OceanParametersExportFile.csv",
-      "category": "",
-      "label": "Output Name",
-      "visible": false,
-      "required": false,
-      "tooltip": "Output Name"
-    },
-    {
       "name": "PolygonInput",
       "dataType": "GPFeatureRecordSetLayer",
       "description": "Input Polygon",
@@ -87,21 +76,33 @@
         "exceededTransferLimit": false
       },
       "category": "",
-      "label": "PolygonInput",
+      "label": "Use eDraw widget (highlight polygon - turns blue; select three dots for input)",
       "visible": true,
       "required": true,
       "featureSetMode": "layers",
       "tooltip": "PolygonInput"
     },
     {
+      "name": "Output_Name",
+      "dataType": "GPString",
+      "description": "Output Name",
+      "defaultValue": "SCENZ_OceanParametersExportFile.csv",
+      "category": "",
+      "label": "Use eDraw widget (highlight polygon - turns blue; select three dots for input)",
+      "visible": false,
+      "required": false,
+      "tooltip": "Output Name"
+    },
+    {
       "name": "esri_out_feature_service_name",
       "dataType": "GPString",
       "description": "The name of the optional feature service to create on the federated server containing the result of this tool. If no name is specified an output feature service will not be created.",
-      "defaultValue": "",
+      "defaultValue": null,
       "category": "",
       "label": "Output Feature Service Name",
-      "visible": true,
-      "required": false
+      "visible": false,
+      "required": false,
+      "tooltip": "Output Feature Service Name"
     }
   ],
   "outputParams": [

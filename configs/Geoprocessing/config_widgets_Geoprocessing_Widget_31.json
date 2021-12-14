@@ -76,7 +76,7 @@
         "exceededTransferLimit": false
       },
       "category": "",
-      "label": "PolygonInput",
+      "label": "Use eDraw widget (highlight polygon - turns blue; select three dots for input)",
       "visible": true,
       "required": true,
       "featureSetMode": "layers",
@@ -89,7 +89,7 @@
       "defaultValue": null,
       "category": "",
       "label": "Output Feature Service Name",
-      "visible": true,
+      "visible": false,
       "required": false,
       "tooltip": "Output Feature Service Name"
     }
