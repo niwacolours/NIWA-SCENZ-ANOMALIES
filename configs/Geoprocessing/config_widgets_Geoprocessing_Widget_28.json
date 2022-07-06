@@ -2,7 +2,7 @@
   "name": "SCENZAnomaly7DExport",
   "displayName": "SCENZ_Anomaly_7D_Export",
   "description": "SCENZ_Anomaly_Export2 using all Input Parameters: uses the Sampling tool on a Multidimensional CRF raster for 7-Day Anomalies to export a table for an input area of pixels",
-  "category": "",
+  "category": "Oceans",
   "helpUrl": "https://gistest.niwa.co.nz/rasteranalytics/rest/directories/arcgisoutput/15_SCENZ/SCENZ_export_multiTime_MA_GISTEST_GPServer/15_SCENZ_SCENZ_export_multiTime_MA_GISTEST/ExportAnomalies7AwInputviaPythonScriptB2.htm",
   "serverInfo": {
     "currentVersion": 10.91,

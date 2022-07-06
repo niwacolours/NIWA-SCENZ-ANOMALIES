@@ -2,7 +2,7 @@
   "name": "SCENZAnomalySEExport",
   "displayName": "SCENZ_Anomaly_SE_Export",
   "description": "SCENZ_Anomaly_SE_Export using all Input Parameters: uses the Sampling tool on a Multidimensional CRF raster for seasonal anomalies to export a table for an input area of pixels",
-  "category": "",
+  "category": "Oceans",
   "helpUrl": "https://gistest.niwa.co.nz/rasteranalytics/rest/directories/arcgisoutput/15_SCENZ/SCENZ_export_multiTime_MA_GISTEST_GPServer/15_SCENZ_SCENZ_export_multiTime_MA_GISTEST/ExportAnomaliesSAwInputviaPythonScriptB2.htm",
   "serverInfo": {
     "currentVersion": 10.91,
