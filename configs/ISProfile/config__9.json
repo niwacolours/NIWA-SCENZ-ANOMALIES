@@ -1,5 +1,5 @@
 {
-  "gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer": {
+  "gistest.niwa.co.nz/raster/rest/services/SCENZ/TEST_V3_All_ANOMALY_ref/ImageServer": {
     "hasOverlap": true,
     "hasNDVI": false,
     "ndvi": false,
