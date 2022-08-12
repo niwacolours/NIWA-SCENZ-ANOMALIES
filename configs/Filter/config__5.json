@@ -159,7 +159,7 @@
                 {
                   "value": "ADET_MonthlyAnomalies",
                   "alias": "ADET_MonthlyAnomalies",
-                  "isChecked": true
+                  "isChecked": false
                 },
                 {
                   "value": "ADET_SeasonalAnomalies",
