@@ -54,7 +54,7 @@
             },
             "interactiveObj": {
               "prompt": "Timestep is",
-              "hint": "",
+              "hint": "What is the timestep to apply as filter",
               "cascade": "none"
             },
             "caseSensitive": false,
@@ -118,7 +118,7 @@
             },
             "interactiveObj": {
               "prompt": "Year is",
-              "hint": "",
+              "hint": "enter a four-digit year",
               "cascade": "none"
             },
             "caseSensitive": false,
