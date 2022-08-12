@@ -107,21 +107,6 @@
       },
       {
         "position": {
-          "left": 105,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 1,
-        "id": "_6",
-        "name": "ISRenderer",
-        "label": "Renderer (use with Filter): A series of product specific renderings to bracket both spatial and seasonal ranges for the entire coverage (defaults to CHL). If you use “Stretch” or “None” all products will be loaded, so use prior to Filter to select a product to display. For best results with stretch parameters, select dynamic range adjustment (DRA) with either a standard deviation or percentage clip. If you select a different product render, make sure either “Filter” product is OFF or selected to correct product otherwise it will not show.",
-        "version": "",
-        "closeable": true,
-        "uri": "widgets/ISRenderer/Widget",
-        "config": "configs/ISRenderer/config__6.json"
-      },
-      {
-        "position": {
           "left": 155,
           "top": 45,
           "relativeTo": "map"
