@@ -10,14 +10,14 @@
     {
       "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
       "url": "https://gistest.niwa.co.nz/raster/rest/services/SCENZ/TEST_V3_All_ANOMALY_ref/ImageServer",
-      "name": "Product_Timestep",
+      "name": "Product (toggle on/off if no image)",
       "filter": {
         "logicalOperator": "AND",
         "parts": [
           {
             "fieldObj": {
-              "name": "ProductName",
-              "label": "ProductName",
+              "name": "Variable",
+              "label": "Variable",
               "dateFormat": "",
               "shortType": "string",
               "type": "esriFieldTypeString"
@@ -29,73 +29,155 @@
               "type": "uniquePredefined",
               "value": [
                 {
-                  "value": "ADET_7DAnomalies",
-                  "alias": "ADET_7DAnomalies",
+                  "value": "ADET",
+                  "alias": "ADET",
                   "isChecked": false
                 },
                 {
-                  "value": "ADET_MonthlyAnomalies",
-                  "alias": "ADET_MonthlyAnomalies",
+                  "value": "BBP",
+                  "alias": "BBP",
                   "isChecked": false
                 },
                 {
-                  "value": "ADET_SeasonalAnomalies",
-                  "alias": "ADET_SeasonalAnomalies",
-                  "isChecked": false
-                  
+                  "value": "CHL",
+                  "alias": "CHL",
+                  "isChecked": true
                 },
                 {
-                  "value": "ADET_AnnualAnomalies",
-                  "alias": "ADET_AnnualAnomalies",
+                  "value": "EBED",
+                  "alias": "EBED",
                   "isChecked": false
                 },
                 {
-                    "value": "BBP_7DAnomalies",
-                    "alias": "BBP_7DAnomalies",
-                    "isChecked": false
-                  },
-                  {
-                    "value": "BBP_MonthlyAnomalies",
-                    "alias": "BBP_MonthlyAnomalies",
-                    "isChecked": false
-                  },
-                  {
-                    "value": "BBP_SeasonalAnomalies",
-                    "alias": "BBP_SeasonalAnomalies",
-                    "isChecked": false
-                  },
-                  {
-                    "value": "BBP_AnnualAnomalies",
-                    "alias": "BBP_AnnualAnomalies",
-                    "isChecked": false
-                  },
-                  {
-                      "value": "CHL_7DAnomalies",
-                      "alias": "CHL_7DAnomalies",
-                      "isChecked": false
-                    },
-                    {
-                      "value": "CHL_MonthlyAnomalies",
-                      "alias": "CHL_MonthlyAnomalies",
-                      "isChecked": true
-                    },
-                    {
-                      "value": "CHL_SeasonalAnomalies",
-                      "alias": "CHL_SeasonalAnomalies",
-                      "isChecked": false
-                    },
-                    {
-                      "value": "CHL_AnnualAnomalies",
-                      "alias": "CHL_AnnualAnomalies",
-                      "isChecked": false
-                    }
+                  "value": "HVIS",
+                  "alias": "HVIS",
+                  "isChecked": false
+                },
+                {
+                  "value": "KPAR",
+                  "alias": "KPAR",
+                  "isChecked": false
+                },
+                {
+                  "value": "PAR",
+                  "alias": "PAR",
+                  "isChecked": false
+                },
+                {
+                  "value": "POB",
+                  "alias": "POB",
+                  "isChecked": false
+                },
+                {
+                  "value": "SEC",
+                  "alias": "SEC",
+                  "isChecked": false
+                },
+                {
+                  "value": "SST",
+                  "alias": "SST",
+                  "isChecked": false
+                },
+                {
+                  "value": "TSS",
+                  "alias": "TSS",
+                  "isChecked": false
+                }
               ],
               "emptyLabel": "- empty -",
               "enableEmpty": false
             },
             "interactiveObj": {
-              "prompt": "Product/Timestep is",
-              "hint": "choose a product and which timestep to filter for",
+              "prompt": "Product is (select  \"Renderer\" first or put on \"stretch\")",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false,
+            "displaySQL": "UPPER(Variable) = 'CHL'",
+            "expr": "UPPER(Variable) = 'CHL'"
+          }
+        ],
+        "expr": "UPPER(Variable) = 'CHL'",
+        "displaySQL": "UPPER(Variable) = 'CHL'"
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": true,
+      "collapse": false,
+      "symbol": {
+        "color": [
+          0,
+          0,
+          128,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
+      "url": "https://gistest.niwa.co.nz/raster/rest/services/SCENZ/TEST_V3_All_ANOMALY_ref/ImageServer",
+      "name": "Timestep",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "GroupName",
+              "label": "GroupName",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "selectUI": "dropdown",
+              "type": "uniquePredefined",
+              "value": [
+                {
+                  "value": "7DAnomalies",
+                  "alias": "7DAnomalies",
+                  "isChecked": false
+                },
+                {
+                  "value": "MonthlyAnomalies",
+                  "alias": "MonthlyAnomalies",
+                  "isChecked": true
+                },
+                {
+                  "value": "SeasonalAnomalies",
+                  "alias": "SeasonalAnomalies",
+                  "isChecked": false
+                },
+                {
+                  "value": "AnnualAnomalies",
+                  "alias": "AnnualAnomalies",
+                  "isChecked": false
+                }
+              ],
+              "emptyLabel": "- empty -",
+              "enableEmpty": false
+            },
+            "interactiveObj": {
+              "prompt": "Timestep is",
+              "hint": "",
               "cascade": "none"
             },
             "caseSensitive": false,
@@ -155,7 +237,7 @@
             "valueObj": {
               "isValid": true,
               "type": "value",
-              "value": "2022"
+              "value": "2020"
             },
             "interactiveObj": {
               "prompt": "Year is",
@@ -163,12 +245,12 @@
               "cascade": "none"
             },
             "caseSensitive": false,
-            "displaySQL": "UPPER(Year) = '2022'",
-            "expr": "UPPER(Year) = '2022'"
+            "displaySQL": "UPPER(Year) = '2020'",
+            "expr": "UPPER(Year) = '2020'"
           }
         ],
-        "expr": "UPPER(Year) = '2022'",
-        "displaySQL": "UPPER(Year) = '2022'"
+        "expr": "UPPER(Year) = '2020'",
+        "displaySQL": "UPPER(Year) = '2020'"
       },
       "icon": null,
       "enableMapFilter": true,
