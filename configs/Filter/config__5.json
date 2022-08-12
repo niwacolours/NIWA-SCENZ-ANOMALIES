@@ -139,8 +139,8 @@
         "parts": [
           {
             "fieldObj": {
-              "name": "GroupName",
-              "label": "GroupName",
+              "name": "ProductName",
+              "label": "ProductName",
               "dateFormat": "",
               "shortType": "string",
               "type": "esriFieldTypeString"
@@ -152,32 +152,53 @@
               "type": "uniquePredefined",
               "value": [
                 {
-                  "value": "7DAnomalies",
-                  "alias": "7DAnomalies",
+                  "value": "ADET_7DAnomalies",
+                  "alias": "ADET_7DAnomalies",
                   "isChecked": false
                 },
                 {
-                  "value": "MonthlyAnomalies",
-                  "alias": "MonthlyAnomalies",
+                  "value": "ADET_MonthlyAnomalies",
+                  "alias": "ADET_MonthlyAnomalies",
                   "isChecked": true
                 },
                 {
-                  "value": "SeasonalAnomalies",
-                  "alias": "SeasonalAnomalies",
+                  "value": "ADET_SeasonalAnomalies",
+                  "alias": "ADET_SeasonalAnomalies",
+                  "isChecked": false
+                  
+                },
+                {
+                  "value": "ADET_AnnualAnomalies",
+                  "alias": "ADET_AnnualAnomalies",
                   "isChecked": false
                 },
                 {
-                  "value": "AnnualAnomalies",
-                  "alias": "AnnualAnomalies",
-                  "isChecked": false
-                }
+                    "value": "BBP_7DAnomalies",
+                    "alias": "BBP_7DAnomalies",
+                    "isChecked": false
+                  },
+                  {
+                    "value": "BBP_MonthlyAnomalies",
+                    "alias": "BBP_MonthlyAnomalies",
+                    "isChecked": true
+                  },
+                  {
+                    "value": "BBP_SeasonalAnomalies",
+                    "alias": "BBP_SeasonalAnomalies",
+                    "isChecked": false
+                  },
+                  {
+                    "value": "BBP_AnnualAnomalies",
+                    "alias": "BBP_AnnualAnomalies",
+                    "isChecked": false
+                  }
               ],
               "emptyLabel": "- empty -",
               "enableEmpty": false
             },
             "interactiveObj": {
-              "prompt": "Timestep is",
-              "hint": "",
+              "prompt": "Product/Timestep is",
+              "hint": "chose a product and which timestep to filter for",
               "cascade": "none"
             },
             "caseSensitive": false,
@@ -237,7 +258,7 @@
             "valueObj": {
               "isValid": true,
               "type": "value",
-              "value": "2020"
+              "value": "2022"
             },
             "interactiveObj": {
               "prompt": "Year is",
@@ -245,12 +266,12 @@
               "cascade": "none"
             },
             "caseSensitive": false,
-            "displaySQL": "UPPER(Year) = '2020'",
-            "expr": "UPPER(Year) = '2020'"
+            "displaySQL": "UPPER(Year) = '2022'",
+            "expr": "UPPER(Year) = '2022'"
           }
         ],
-        "expr": "UPPER(Year) = '2020'",
-        "displaySQL": "UPPER(Year) = '2020'"
+        "expr": "UPPER(Year) = '2022'",
+        "displaySQL": "UPPER(Year) = '2022'"
       },
       "icon": null,
       "enableMapFilter": true,
