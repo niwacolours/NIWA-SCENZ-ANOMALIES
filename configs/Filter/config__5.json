@@ -59,6 +59,11 @@
                   "isChecked": false
                 },
                 {
+                  "value": "PAR",
+                  "alias": "PAR",
+                  "isChecked": false
+                },
+                {
                   "value": "POB",
                   "alias": "POB",
                   "isChecked": false
@@ -147,8 +152,8 @@
               "type": "uniquePredefined",
               "value": [
                 {
-                  "value": "7DAnomalies",
-                  "alias": "7DAnomalies",
+                  "value": "7DayAnomalies",
+                  "alias": "7DayAnomalies",
                   "isChecked": false
                 },
                 {
@@ -232,7 +237,7 @@
             "valueObj": {
               "isValid": true,
               "type": "value",
-              "value": "2020"
+              "value": "2022"
             },
             "interactiveObj": {
               "prompt": "Year is",
@@ -240,12 +245,12 @@
               "cascade": "none"
             },
             "caseSensitive": false,
-            "displaySQL": "UPPER(Year) = '2020'",
-            "expr": "UPPER(Year) = '2020'"
+            "displaySQL": "UPPER(Year) = '2022'",
+            "expr": "UPPER(Year) = '2022'"
           }
         ],
-        "expr": "UPPER(Year) = '2020'",
-        "displaySQL": "UPPER(Year) = '2020'"
+        "expr": "UPPER(Year) = '2022'",
+        "displaySQL": "UPPER(Year) = '2022'"
       },
       "icon": null,
       "enableMapFilter": true,
