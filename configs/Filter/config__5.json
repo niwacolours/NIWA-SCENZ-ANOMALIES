@@ -29,8 +29,8 @@
               "type": "uniquePredefined",
               "value": [
                 {
-                  "value": "7DAnomalies",
-                  "alias": "7DAnomalies",
+                  "value": "7DayAnomalies",
+                  "alias": "7DayAnomalies",
                   "isChecked": false
                 },
                 {
@@ -122,12 +122,12 @@
               "cascade": "none"
             },
             "caseSensitive": false,
-            "displaySQL": "UPPER(Year) = '2020'",
-            "expr": "UPPER(Year) = '2020'"
+            "displaySQL": "UPPER(Year) = '2022'",
+            "expr": "UPPER(Year) = '2022'"
           }
         ],
-        "expr": "UPPER(Year) = '2020'",
-        "displaySQL": "UPPER(Year) = '2020'"
+        "expr": "UPPER(Year) = '2022'",
+        "displaySQL": "UPPER(Year) = '2022'"
       },
       "icon": null,
       "enableMapFilter": true,
