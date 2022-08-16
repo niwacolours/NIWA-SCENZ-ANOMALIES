@@ -9,7 +9,7 @@
   "filters": [
     {
       "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
-      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
+      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/PROD_V3_All_ANOMALY_ref/ImageServer",
       "name": "Product (toggle on/off if no image)",
       "filter": {
         "logicalOperator": "AND",
@@ -127,7 +127,7 @@
     },
     {
       "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
-      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
+      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/PROD_V3_All_ANOMALY_ref/ImageServer",
       "name": "Timestep",
       "filter": {
         "logicalOperator": "AND",
@@ -215,7 +215,7 @@
     },
     {
       "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
-      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
+      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/PROD_V3_All_ANOMALY_ref/ImageServer",
       "name": "Year",
       "filter": {
         "logicalOperator": "AND",
@@ -279,7 +279,7 @@
     },
     {
       "layerId": "NIWA_SCENZ_ANOMALIES_V02_7979",
-      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/NIWA_SCENZ_ANOMALIES_V02/ImageServer",
+      "url": "https://gis.niwa.co.nz/raster/rest/services/SCENZ/PROD_V3_All_ANOMALY_ref/ImageServer",
       "name": "Month",
       "filter": {
         "logicalOperator": "AND",
