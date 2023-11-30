@@ -1,31 +1,97 @@
 {
   "display": "both",
-  "zoomLevel": 0,
+  "zoomLevel": 1,
   "searchExtent": 75,
   "autoRefresh": false,
-  "listImagesSeparate": false,
-  "NIWA_SCENZ_TIMESERIES_V02_1878": {
-    "imageField": "StdTime",
+  "listImagesSeparate": true,
+  "NIWA_SCENZ_CLIMATOLOGIES_V02_5742": {
+    "imageField": "ProductName",
     "objectID": "OBJECTID",
     "category": "Category",
-    "title": "Product"
+    "title": "HVIS Climatology"
   },
-  "secondaryLayer": {
-    "imageField": "",
+  "189b9b24a1c-layer-5": {
+    "imageField": "ProductName",
     "objectID": "OBJECTID",
     "category": "Category",
-    "title": "Product"
+    "title": "HVIS Climatology"
   },
-  "NIWA_SCENZ_ANOMALIES_V02_9993": {
-    "imageField": "StdTime",
+  "189b9b1641b-layer-4": {
+    "imageField": "ProductName",
     "objectID": "OBJECTID",
     "category": "Category",
-    "title": "Product"
+    "title": "HVIS Climatology"
   },
-  "NIWA_SCENZ_ANOMALIES_V02_7979": {
-    "imageField": "StdTime",
+  "189cd5813b4-layer-1": {
+    "imageField": "ProductName",
     "objectID": "OBJECTID",
     "category": "Category",
-    "title": "Product"
+    "title": "SST"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864_6200_5857_3456_2895_2944": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "TSS (g/m3)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864_6200_5857_3456_2895": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "SST (dC)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864_6200_5857_3456": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "SEC (m)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864_6200_5857": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "POB (0-1)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864_6200_1399": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "PAR (M/m2/day)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864_6200_6351": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "KPAR (/m)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864_6200_3222": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "HVIS (m)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864_6200": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "EBED (M/m2/day)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255_9864": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "CHL (mg/m3)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819_9255": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "BBP (/m)"
+  },
+  "PROD_V3_All_ANOMALY_ref_4819": {
+    "imageField": "ProductName",
+    "objectID": "OBJECTID",
+    "category": "Category",
+    "title": "ADET (/m)"
   }
 }

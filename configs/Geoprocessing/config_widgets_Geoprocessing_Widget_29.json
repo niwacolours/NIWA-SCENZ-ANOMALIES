@@ -5,7 +5,7 @@
   "category": "Oceans",
   "helpUrl": "https://gis.niwa.co.nz/rasteranalytics/rest/directories/arcgisoutput/15_SCENZ/SCENZ_export_multiTime_MA_V3_GIS_GPServer/15_SCENZ_SCENZ_export_multiTime_MA_V3_GIS/ExportAnomaliesMAwInputviaPythonScriptB2.htm",
   "serverInfo": {
-    "currentVersion": 10.91,
+    "currentVersion": 11.1,
     "url": "https://gis.niwa.co.nz/rasteranalytics/rest/services/15_SCENZ/SCENZ_export_multiTime_MA_V3_GIS/GPServer",
     "hasResultMapServer": false,
     "resultMapServerName": "",
@@ -21,7 +21,7 @@
       "description": "Input Polygon",
       "defaultValue": {
         "displayFieldName": "",
-        "hasZ": true,
+        "hasZ": false,
         "geometryType": "esriGeometryPolygon",
         "spatialReference": {
           "wkid": 2193,
@@ -31,7 +31,7 @@
         "exceededTransferLimit": false
       },
       "category": "",
-      "label": "Use eDraw widget (highlight polygon - turns blue; select three dots for input)",
+      "label": "Use eDraw widget or select a polygon from a layer of interest (highlight polygon - turns blue; select three dots for input)",
       "visible": true,
       "required": true,
       "featureSetMode": "layers",
@@ -65,5 +65,5 @@
   "layerOrder": [
     "PolygonInput"
   ],
-  "showExportButton": false
+  "showExportButton": true
 }

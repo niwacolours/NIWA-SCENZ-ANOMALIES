@@ -1,7 +1,7 @@
 {
-  "name": "NIWA-SCENZ-ANOMALIES-V02",
-  "description": "NIWA-SCENZ anomalies imagery service with all timestep averaging (week, month, season and year) and rendering options for all products.",
-  "createdTime": 1638994747382,
-  "lastUpdated": 1639340135916,
+  "name": "NIWA-SCENZ-ANOMALIES-V03dev",
+  "description": "NIWA-SCENZ anomalies imagery service with all timestep averaging (week, month, season and year). Products are seperate layers with their own legends.",
+  "createdTime": 1692033515899,
+  "lastUpdated": 1701227738017,
   "creator": "Mark.Gall@niwa.co.nz"
 }
